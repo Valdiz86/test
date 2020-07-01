@@ -19,7 +19,7 @@ git push
 **Nonemt folderi no githuba**  
 git rm -r --cached FolderName  
 git commit -m "Removed folder from repository"  
-git push origin master  
+git push
 
 **RENAME FOLDER OR FILE**  
 git mv scss _scss  
