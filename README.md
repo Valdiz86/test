@@ -16,10 +16,10 @@ git add jauns_fails.php
 git commit -m "komentaars speciaali izveletajam folderim vai failam"  
 git push  
 
-**Nonemt folderi no githuba**  
+**REMOVE FOLDER OR FILE no githuba**  
 git rm -r --cached FolderName  
 git commit -m "Removed folder from repository"  
 git push
 
 **RENAME FOLDER OR FILE**  
-git mv scss _scss  
+git mv oldFileOrFolder newFileOrFolder  
