@@ -1,7 +1,15 @@
 
-**INIT**  
 git.exe file url:  
-https://git-scm.com/download/win
+https://git-scm.com/download/win  
+You need to add the following paths to Environment Variables / Path:
+```code
+C:\Program Files\Git\bin\
+C:\Program Files\Git\cmd\
+```
+---
+---
+**INIT**  
+
 ```bash
 git init  
 git add .  
@@ -16,20 +24,21 @@ git add *
 git commit -m "Jauns komentaars"  
 git push  
 ```
-  
-add * means add all files in the current directory, except for files whose name begin with a dot. This is your shell functionality and Git only ever receives a list of files.  
-  
-add . has no special meaning in your shell, and thus Git adds the entire directory recursively, which is almost the same, but including files whose names begin with a dot.
 
-add folder_name  
-add test.extension
-___
-**PUSH SELECTED FILE OR FOLDER** 
-```bash 
-git add jauns_fails.php  
-git commit -m "komentaars speciaali izveletajam folderim vai failam"  
-git push  
-```
+```-m```  
+  stands for message - i.e., the commit message that everyone will see attached to your commit.
+  
+```add *```  
+   adding all files in the current directory, **except for files whose name begin with a dot**. This is your shell functionality and Git only ever receives a list of files.  
+  
+```add .```   
+has no special meaning in your shell, and thus Git adds the entire directory recursively, which is almost the same, but **including files whose names begin with a dot.**
+
+```add folder_name ```  
+adding specific folder  
+
+```add test.extension```  
+adding speciic file
 ___
 **REMOVE FOLDER OR FILE no githuba**  
 ```bash
