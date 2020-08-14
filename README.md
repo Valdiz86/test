@@ -51,3 +51,9 @@ ___
 ```bash
 git mv oldFileOrFolder newFileOrFolder  
 ```
+
+___
+**GET ALL FILES FROM GIT**  
+```bash
+git clone https://github.com/mario199m/abcd-frontend.git frontend 
+```
